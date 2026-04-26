@@ -1,0 +1,31 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Circuit Clock"
+  },
+  {
+    "type": "text",
+    "defaultValue": "Shake the watch to cycle through date / day / steps / heart rate / battery / etc."
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Digit Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "TIME_COLOR",
+        "defaultValue": "ffff00",
+        "label": "Time digits color",
+        "sunlight": false,
+        "allowGray": true
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]
